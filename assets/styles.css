@@ -369,7 +369,7 @@ body {
 .footer {
     display: grid;
     grid-template-columns: auto auto;
-    color: var(--White);
+    color: var(--Cream);
     margin-left: 150px;
     margin-top: 90px;
     margin-right: 150px;
@@ -386,7 +386,6 @@ body {
     height: 56px;
     font-size: var(--HeadingS);
     line-height: 28px;
-    color: var(--White);
     display: flex;
     justify-content: center;
     align-items: center;
