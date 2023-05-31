@@ -32,13 +32,13 @@ Your users should be able to:
 
 ### Screenshot
 
-![](assets/images/preview.jpg)
+![](preview.png)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaegit123/My-portfolio)
+- Solution URL: [Github](https://github.com/jaedevgithub/singlePageWebsitePortfolio)
 
-- Live Site URL: [Github Pages](https://jaedevgithub.github.io/My-portfolio/)
+- Live Site URL: [Github Pages](https://jaedevgithub.github.io/singlePageWebsitePortfolio/)
 
 ## My process
 
@@ -58,6 +58,7 @@ Your users should be able to:
 ### What can be improve
 
 - Some CSS elements can be redundant.
+- Slider only works when buttons are click.
 
 ## Author
 
