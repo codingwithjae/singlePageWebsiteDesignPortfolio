@@ -8,7 +8,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+    rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="assets/assets/favicon.svg">
   <link rel="icon" type="image/svg+xml" href="assets/assets/favicon.svg">
@@ -18,6 +19,7 @@
   <title>Project | Single-page design portfolio</title>
 
 </head>
+
 <body>
 
   <!--Header-->
@@ -89,20 +91,21 @@
         </div>
     </section>
   </div>
-
-  <div class="bio-design-container">
-    <section class="bio-designer">
-      <picture class="amy-container">
-        <img class="amy" src="assets/assets/image-amy.webp" alt="amy-image">
-      </picture>
-      <div class="bio-content">
-        <h2>I’m Amy, and I’d love to work on your next project</h2>
-        <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
-          illustrations
-          to complete mobile apps. I’m also handy with a camera!</p>
-        <a href="#">Free Consultation</a>
-      </div>
-    </section>
+  <div class="bio-design-section-container">
+    <div class="bio-design-container">
+      <section class="bio-designer">
+        <picture class="amy-container">
+          <img class="amy" src="assets/assets/image-amy.webp" alt="amy-image">
+        </picture>
+        <div class="bio-content">
+          <h2>I’m Amy, and I’d love to work on your next project</h2>
+          <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
+            illustrations
+            to complete mobile apps. I’m also handy with a camera!</p>
+          <a href="#">Free Consultation</a>
+        </div>
+      </section>
+    </div>
   </div>
 
   <h2 class="portfolio-title">My Work</h2>
@@ -115,13 +118,20 @@
       <img src="assets/assets/image-slide-4.jpg" alt="slide4" draggable="false">
       <img src="assets/assets/image-slide-5.jpg" alt="slide5" draggable="false">
     </div>
-    <i class="left-arrow">
-      <img id="left" class="icon-left" src="assets/assets/icon-arrow-left.svg" alt="left">
-    </i>
+  </section>
+
+  <div class="arrow-container">
+    <div class="left-container">
+      <i class="left-arrow">
+        <img id="left" class="icon-left" src="assets/assets/icon-arrow-left.svg" alt="left">
+      </i>
+    </div>
+    <div class="right-container">
     <i class="right-arrow">
       <img id="right" class="icon-right" src="assets/assets/icon-arrow-right.svg" alt="right">
     </i>
-  </section>
+  </div>
+  </div>
 
   <!--Footer-->
   <div class="footer-section-container">
@@ -151,8 +161,10 @@
   </div>
 
   <div class="credit">
-    <p>Coded by  <span class="underline"><a class="link" href="https://github.com/jaedevgithub">Johander Campos </a><span> </p>
+    <p>Coded by <span class="underline"><a class="link" href="https://github.com/jaedevgithub">Johander Campos
+        </a><span> </p>
   </div>
 
 </body>
+
 </html>

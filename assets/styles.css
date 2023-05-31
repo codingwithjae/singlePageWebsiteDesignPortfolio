@@ -1,10 +1,9 @@
-
 :root {
     --White: #FFFFFF;
     --Gray: #7A746E;
     --Purple: #755CDE;
     --LightOrange: #F6A560;
-    --DarkOrange:  #EB7565;
+    --DarkOrange: #EB7565;
     --Pink: #F39E9E;
     --Cream: #FFF7F0;
     --Green: #61C4B7;
@@ -288,20 +287,29 @@ body {
     position: relative;
 }
 
-.wrapper i {
+.arrow-container i {
     height: 64px;
     width: 64px;
-    position: absolute;
     text-align: center;
     background: var(--Black);
     border-radius: 50%;
+}
+
+.left-container {
+    margin-right: 50px;
+}
+
+.arrow-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 320px;
     left: 650px;
     cursor: pointer;
@@ -311,13 +319,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 320px;
     left: 550px;
     cursor: pointer;
 }
 
-.wrapper i:hover {
+.arrow-container i:hover {
     background: var(--Purple);
 }
 
@@ -348,6 +355,10 @@ body {
 
 .carousel img:first-child {
     margin-left: 0px;
+}
+
+.footer-section-container{
+    display: flex;
 }
 
 .footer {
@@ -391,7 +402,7 @@ body {
 }
 
 .footer-content p {
-    font-size: 18px;
+    font-size: var(--HeadingSpecialMobileXS);
     line-height: 28px;
     margin-right: 120px;
     margin-left: 60px;
@@ -429,7 +440,7 @@ body {
 }
 
 .link:link {
-    color: var(--Green);
+    color: var(--DarkPurple);
 }
 
 .underline {
@@ -453,7 +464,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 720px) {
 
     html,
     body {
@@ -467,6 +478,7 @@ body {
     }
 
     .header-section-container,
+    .bio-design-section-container,
     .skill-section-container,
     .header-logo-container,
     .bio-design-container {
@@ -475,7 +487,10 @@ body {
         justify-content: space-evenly;
     }
 
-    .skill-section-container {
+
+    .bio-design-section-container,
+    .skill-section-container,
+    .header-section-container {
         justify-content: center;
     }
 
@@ -618,6 +633,8 @@ body {
         margin-top: 50px;
     }
 }
+
+@media only screen and (min-width: 512px) {}
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
 
