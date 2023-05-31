@@ -252,7 +252,7 @@ body {
 }
 
 .bio-content p {
-    font-size: var(--HeadingS);
+    font-size: var(--HeadingXS);
     line-height: 28px;
     margin-bottom: 30px;
     color: var(--Gray);
@@ -364,12 +364,12 @@ body {
 
 .footer-section-container {
     display: flex;
+    color: var(--Cream);
 }
 
 .footer {
     display: grid;
     grid-template-columns: auto auto;
-    color: var(--Cream);
     margin-left: 150px;
     margin-top: 90px;
     margin-right: 150px;
@@ -381,6 +381,7 @@ body {
 
 .footer a {
     background: var(--DarkOrange);
+    color: var(--Cream);
     border-radius: 28px;
     width: 228px;
     height: 56px;
@@ -490,7 +491,6 @@ body {
         grid-template-columns: auto auto;
         justify-content: space-evenly;
     }
-
 
     .bio-design-section-container,
     .skill-section-container,
@@ -622,7 +622,6 @@ body {
 
     .footer-section img {
         margin-right: 25px;
-
     }
 
     .bottom-box {
@@ -647,7 +646,6 @@ body {
         max-width: 100%;
         overflow-x: hidden;
     }
-
 
     .logo-black {
         margin-left: -60px;
