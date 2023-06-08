@@ -17,10 +17,6 @@
     --HeadingM: 32px;
     --HeadingS: 18px;
     --HeadingXS: 16px;
-    --HeadingSpecialMobileXL: 50px;
-    --HeadingSpecialMobileL: 36px;
-    --HeadingSpecialMobileM: 26px;
-    --HeadingSpecialMobileXS: 14px;
 }
 
 /*Font sizes and colors*/
@@ -636,8 +632,6 @@ body {
         margin-top: 50px;
     }
 }
-
-@media only screen and (min-width: 512px) {}
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
 
