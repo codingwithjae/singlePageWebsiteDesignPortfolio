@@ -32,7 +32,9 @@ Your users should be able to:
 
 ### Screenshot
 
-![](assets/assets/preview.png)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmI1cHJrMWhjd3lpZDJtOGllZXg2NGpxdWR1YzVpODZ5c3Y0cWVlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L0X4MQX06w4Vvz8f7D/giphy.gif"/>
+</p>
 
 ### Links
 
@@ -44,10 +46,9 @@ Your users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup.
-- Flexbox.
-- CSS Grid.
-- Vanilla JavaScript.
+- HTML
+- CSS.
+- JavaScript.
 
 ### What I learned
 
@@ -63,3 +64,4 @@ Your users should be able to:
 ## Author
 
 - Frontend Mentor - [@jaegit123](https://www.frontendmentor.io/profile/jaegit123)
+- Check out my [portfolio](https://codingwithjae.dev/)

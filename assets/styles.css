@@ -824,6 +824,10 @@ body {
     position: relative;
     right: 660px;
   }
-  
+
+  .footer {
+    position: relative;
+    left: -600px;
+  }
 }
 /*Media queries end*/
