@@ -36,7 +36,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jaedevgithub/singlePageWebsitePortfolio)
+- Solution URL: [GitHub](https://github.com/jaedevgithub/singlePageWebsitePortfolio)
 
 - Live Site URL: [Github Pages](https://jaedevgithub.github.io/singlePageWebsitePortfolio/)
 
@@ -51,14 +51,14 @@ Your users should be able to:
 
 ### What I learned
 
-- The skill list grid was a great challenge for CSS grid.
+- The skill list grid was a great challenge for the CSS grid.
 - I use ChatGPT to create the JavaScript code with my HTML and CSS configuration.
 
 
 ### What can be improve
 
 - Some CSS elements can be redundant.
-- Slider only works when buttons are click.
+- The slider only works when buttons are clicked.
 
 ## Author
 
